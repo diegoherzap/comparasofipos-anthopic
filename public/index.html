@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ComparaSOFIPOS - Comparador de Inversiones SOFIPO en México</title>
+  <meta name="description" content="Compara las mejores opciones de inversión en SOFIPOS de México. Encuentra la mejor tasa de interés para tu dinero.">
+  <link rel="stylesheet" href="/css/output.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  <!-- Add Chart.js from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    /* Ensure dark mode toggle is visible */
+    #dark-mode-toggle-container {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 9999;
+    }
+    
+    #dark-mode-toggle-btn {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    #dark-mode-toggle-btn:hover {
+      background-color: #1d4ed8;
+    }
+    
+    .dark #dark-mode-toggle-btn {
+      background-color: #3b82f6;
+    }
+    
+    .dark #dark-mode-toggle-btn:hover {
+      background-color: #2563eb;
+    }
+    
+    /* Ensure SOFIPO selection container is visible */
+    #sofipo-selection-section {
+      display: block !important;
+    }
+    
+    #sofipos-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 0.75rem;
+    }
+    
+    @media (min-width: 768px) {
+      #sofipos-container {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    
+    /* Custom select styling */
+    .select-wrapper {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+    }
+    
+    @media (min-width: 768px) {
+      .select-wrapper {
+        width: 66.666667%;
+      }
+    }
+    
+    @media (min-width: 1024px) {
+      .select-wrapper {
+        width: 50%;
+      }
+    }
+    
+    .select-wrapper .select-arrow {
+      position: absolute;
+      top: 50%;
+      right: 12px;
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans dark:bg-gray-900 transition-colors duration-200">
+  <!-- Dark Mode Toggle Button - Fixed in upper right corner with inline styles for visibility -->
+  <div id="dark-mode-toggle-container">
+    <button 
+      id="dark-mode-toggle-btn" 
+      aria-label="Cambiar tema"
+    >
+      <!-- Sun icon for dark mode (shown when in dark mode) -->
+      <svg id="sun-icon" class="hidden dark:block w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+      </svg>
+      <!-- Moon icon for light mode (shown when in light mode) -->
+      <svg id="moon-icon" class="block dark:hidden w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+      </svg>
+    </button>
+  </div>
+
+  <header class="bg-white shadow-sm dark:bg-gray-800 dark:text-white transition-colors duration-200">
+    <div class="container mx-auto px-4 py-6">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="flex items-center mb-4 md:mb-0">
+          <img src="/img/logo.svg" alt="ComparaSOFIPOS Logo" class="h-10 mr-3">
+          <h1 class="text-2xl font-bold text-primary-700 dark:text-white">ComparaSOFIPOS</h1>
+        </div>
+        <p class="text-gray-600 text-center md:text-right max-w-md dark:text-gray-300">
+          Encuentra y compara las mejores opciones de inversión en SOFIPOS de México
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-8">
+    <div class="bg-white rounded-lg shadow-md p-6 mb-8 dark:bg-gray-800 dark:text-white transition-colors duration-200">
+      <h2 class="text-xl font-semibold text-center text-gray-800 mb-6 dark:text-white">Encuentra la Mejor Opción para Hacer Crecer tu Dinero</h2>
+      <p class="text-gray-600 text-center mb-4 dark:text-gray-300">
+        ¿Quieres maximizar el rendimiento de tu inversión pero no sabes qué SOFIPO elegir? ComparaSOFIPOS.com es la herramienta definitiva para comparar de manera rápida, clara y transparente las opciones disponibles en México.
+      </p>
+      <p class="text-gray-600 text-center dark:text-gray-300">
+        Compara rendimientos y beneficios en segundos.
+				Filtra por montos, plazos y requisitos para encontrar la mejor opción según tus necesidades.
+				Información actualizada y confiable sobre tasas de interés, seguros de depósito y condiciones.
+				No dejes tu dinero en cualquier lugar. Descubre la SOFIPO ideal y haz que tu inversión trabaje para ti.
+      </p>
+    </div>
+
+    <!-- Investment Inputs Section (Full Width) - Vertical Layout -->
+    <div class="bg-white rounded-lg shadow-md p-6 mb-8 dark:bg-gray-800 dark:text-white transition-colors duration-200">
+      <h2 class="text-xl font-semibold text-gray-800 mb-6 dark:text-white">Detalles de tu inversión</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-1 gap-6">
+        <div>
+          <label for="investment-amount" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            Monto de tu inversión (MXN)
+          </label>
+          <div class="relative">
+            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+              <span class="text-gray-500 dark:text-gray-400">$</span>
+            </div>
+            <input 
+              type="number" 
+              id="investment-amount" 
+              class="input-field pl-7 w-full md:w-2/3 lg:w-1/2 py-3 text-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white" 
+              value="100" 
+              min="1"
+              max="999999999"
+            >
+          </div>
+        </div>
+        
+        <div>
+          <label for="investment-term" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            Plazo<sup>1</sup>
+          </label>
+          <div class="select-wrapper">
+            <select id="investment-term" class="input-field w-full py-3 text-lg appearance-none bg-white dark:bg-gray-700 dark:border-gray-600 dark:text-white pr-8">
+              <option value="">Selecciona un plazo</option>
+              <option value="7" selected>7 días</option>
+              <option value="30">30 días</option>
+              <option value="60">60 días</option>
+              <option value="90">90 días</option>
+              <option value="120">120 días</option>
+              <option value="150">150 días</option>
+              <option value="180">180 días</option>
+              <option value="210">210 días</option>
+              <option value="240">240 días</option>
+              <option value="270">270 días</option>
+              <option value="360">360 días</option>
+              <option value="540">540 días (1.5 años)</option>
+              <option value="720">720 días (2 años)</option>
+              <option value="1080">1080 días (3 años)</option>
+              <option value="1440">1440 días (4 años)</option>
+              <option value="1800">1800 días (5 años)</option>
+              <option value="f">A la vista</option>
+            </select>
+            <div class="select-arrow text-gray-700 dark:text-gray-300">
+              <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+            </div>
+          </div>
+          <p class="text-xs text-gray-500 mt-4 dark:text-gray-400">
+            <sup>1</sup> Algunos SOFIPOS manejan plazos que varían por ±3 días. Para efectos de comparación, se consideran equivalentes.
+          </p>
+        </div>
+        
+        <div id="custom-duration-container" class="hidden">
+          <label for="custom-duration" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            Duración de tu inversión (a la vista) en días
+          </label>
+          <input 
+            type="number" 
+            id="custom-duration" 
+            class="input-field w-full md:w-2/3 lg:w-1/2 py-3 text-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white" 
+            placeholder="365" 
+            min="1"
+            max="3650"
+          >
+        </div>
+        
+        <div>
+          <button id="calculate-btn" class="btn btn-primary w-full md:w-2/3 lg:w-1/2 py-3 text-lg font-medium">
+            Actualizar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Comparative Chart Section (Always Visible) -->
+    <div id="chart-section" class="bg-white rounded-lg shadow-md p-6 mb-8 dark:bg-gray-800 dark:text-white transition-colors duration-200">
+      <h2 class="text-xl font-semibold text-gray-800 mb-6 dark:text-white">Gráfica Comparativa</h2>
+      <p class="text-gray-600 mb-4 dark:text-gray-300">
+        Comparación visual de los rendimientos estimados para las SOFIPOS seleccionadas:
+      </p>
+      <div class="h-100 md:h-96">
+        <canvas id="earnings-chart"></canvas>
+      </div>
+      <p class="text-xs text-gray-500 mt-4 text-center dark:text-gray-400">
+        * Los rendimientos mostrados son estimados y pueden variar. El cálculo se realiza multiplicando montoDeInversion * tasaAnualizada * plazo. Consulta los términos y condiciones de cada institución.
+      </p>
+    </div>
+
+		<!-- SOFIPO Selection Section - Explicitly placed here -->
+    <div id="sofipo-selection-section" class="bg-white rounded-lg shadow-md p-6 mb-8 dark:bg-gray-800 dark:text-white transition-colors duration-200">
+      <h2 class="text-xl font-semibold text-gray-800 mb-6 dark:text-white">Selecciona las SOFIPOS a comparar</h2>
+      
+      <div class="mb-4">
+        <div class="flex items-center justify-between">
+          <p class="text-sm text-gray-600 dark:text-gray-300">
+            <span id="eligible-count">0</span> SOFIPOS disponibles para tu inversión
+          </p>
+          <div>
+            <button id="select-all" class="text-sm text-primary-600 hover:text-primary-800 dark:text-primary-400 dark:hover:text-primary-300">Seleccionar todas</button>
+            <span class="text-gray-400 mx-1">|</span>
+            <button id="deselect-all" class="text-sm text-primary-600 hover:text-primary-800 dark:text-primary-400 dark:hover:text-primary-300">Deseleccionar todas</button>
+            <span class="text-gray-400 mx-1">|</span>
+            <button id="toggle-all-sofipos" class="text-sm text-primary-600 hover:text-primary-800 dark:text-primary-400 dark:hover:text-primary-300">Mostrar todas las SOFIPOS</button>
+          </div>
+        </div>
+      </div>
+      
+      <div id="sofipos-container" class="grid grid-cols-1 md:grid-cols-3 gap-3">
+        <!-- SOFIPO checkboxes will be dynamically inserted here -->
+        <p class="text-gray-500 text-center col-span-3 py-8 dark:text-gray-400">
+          Selecciona un plazo para ver las SOFIPOS disponibles
+        </p>
+      </div>
+    </div>
+
+    <!-- Results Table Section (Always Visible) -->
+    <div id="results-section" class="bg-white rounded-lg shadow-md p-6 mb-8 dark:bg-gray-800 dark:text-white transition-colors duration-200">
+      <h2 class="text-xl font-semibold text-gray-800 mb-6 dark:text-white">Tabla Comparativa</h2>
+      
+      <div class="overflow-x-auto">
+        <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+          <thead class="bg-gray-50 dark:bg-gray-700">
+            <tr>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300">
+                SOFIPO
+              </th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300">
+                Producto
+              </th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300">
+                Tu inversión
+              </th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300">
+                Tasa de interés
+              </th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300">
+                Duración de tu inversión
+              </th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300">
+                GAT<sup>1</sup>
+              </th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300">
+                Monto final
+              </th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300">
+                Plazos admitidos
+              </th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300">
+                Monto Mínimo y Máximo
+              </th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300">
+                Notas
+              </th>
+              <th scope="col" class="px-6 py-3 hidden text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300">
+                Sitio Web
+              </th>
+            </tr>
+          </thead>
+          <tbody id="results-table-body" class="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
+            <!-- Results will be dynamically inserted here -->
+            <tr>
+              <td colspan="11" class="px-6 py-4 text-center text-gray-500 dark:text-gray-400">
+                Selecciona un plazo y monto para ver los resultados
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+      <p class="text-xs text-gray-500 mt-4 dark:text-gray-400">
+        <sup>1</sup> GAT: Ganancia Anual Total estimada antes de impuestos aplicables y sin considerar inflación ni reinversión de intereses (interés compuesto).
+      </p>
+      <p class="text-xs text-gray-500 mt-4 dark:text-gray-400">
+        <sup>2</sup> Monto asegurado por hasta 25,000 UDIS por persona.
+      </p>
+    </div>
+  </main>
+
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-lg font-semibold mb-4">ComparaSOFIPOS</h3>
+          <p class="text-gray-300 text-sm text-justify hyphens-auto">
+            Herramienta de comparación de inversiones en SOFIPOS de México. Encuentra la mejor opción para hacer crecer tu dinero.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Información importante</h3>
+          <p class="text-gray-300 text-sm text-justify hyphens-auto">
+            Los rendimientos mostrados son estimados y pueden variar. La información se actualiza periódicamente, pero te recomendamos verificar las tasas directamente con cada institución. La información proporcionada en ComparaSOFIPOS.com es solo con fines informativos y no constituye asesoría financiera, legal o de inversión. Antes de tomar cualquier decisión, te recomendamos consultar con un asesor financiero profesional. ComparaSOFIPOS.com no se hace responsable por las decisiones tomadas con base en la información presentada en el sitio.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Contacto</h3>
+          <p class="text-gray-300 text-sm text-justify hyphens-auto">
+            ¿Tienes preguntas o sugerencias? Escríbenos a contacto@comparasofipos.com
+          </p>
+        </div>
+      </div>
+      <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
+        <p>© 2025 ComparaSOFIPOS. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

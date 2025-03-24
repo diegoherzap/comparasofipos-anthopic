@@ -1,0 +1,164 @@
+financialInstitution,productName,productUrl,minAmount,maxAmount,duration,intRate7,intRate30,intRate60,intRate90,intRate120,intRate150,intRate180,intRate210,intRate240,intRate270,intRate360,intRate540,intRate720,intRate1080,intRate1440,intRate1800,intRateF,notes,logoUrl
+Acción y Evolución S.A. de C.V.,Mi Plazo Real (500 a 50K),https://realfinanciera.com,500,50000,"7,30,90,180,360",2.75,4.5,,5.05,,,5.8,,,,6,,,,,,,Nivel I<sup>2</sup>,http://realfinanciera.com/wp-content/uploads/2015/03/logo-oro-retina.png
+Acción y Evolución S.A. de C.V.,Mi Plazo Real (+50K a 250K),https://realfinanciera.com,50001,250000,"7,30,90,180,360",3,4.5,,5.05,,,5.8,,,,6,,,,,,,Nivel I<sup>2</sup>,http://realfinanciera.com/wp-content/uploads/2015/03/logo-oro-retina.png
+Acción y Evolución S.A. de C.V.,Mi Plazo Real (+250K a 500K),https://realfinanciera.com,250001,500000,"7,30,90,180,360",3.5,4.5,,5.05,,,5.8,,,,6.5,,,,,,,Nivel I<sup>2</sup>,http://realfinanciera.com/wp-content/uploads/2015/03/logo-oro-retina.png
+Acción y Evolución S.A. de C.V.,Mi Plazo Real (+500K a 750K),https://realfinanciera.com,500001,750000,"7,30,90,180,360",3.6,4.5,,5.05,,,5.8,,,,7,,,,,,,Nivel I<sup>2</sup>,http://realfinanciera.com/wp-content/uploads/2015/03/logo-oro-retina.png
+Acción y Evolución S.A. de C.V.,Mi Plazo Real (+750K),https://realfinanciera.com,750001,999999999,"7,30,90,180,360",3.65,4.5,,5.05,,,5.8,,,,7,,,,,,,Nivel I<sup>2</sup>,http://realfinanciera.com/wp-content/uploads/2015/03/logo-oro-retina.png
+"Administradora de Caja Bienestar S.A. de C.V., S. F. P.",Depósito a Plazo Fijo,https://www.ahorrosbienestar.com,2000,50000,"30,60,90,120,180,360,720",,6,6.5,6.55,6.92,,6.97,,,,7.77,,7.87,,,,,Nivel III<sup>2</sup>,
+Capital Activo S.A. de C.V.,Depósito a Plazo,https://capitalactivo.com.mx,1000,999999999,"30,60,90,120,180,270,360,540,720,f",,2.5,3.5,4.5,5,,9.75,,,10.25,10.75,11,11.25,,,,1.5,Nivel I<sup>2</sup>,https://capitalactivo.com.mx/wp-content/themes/capital/images/logo-capital-activo.svg
+Crediclub S.A. de C.V.,Super Tasas,https://supertasas.com,1,5000000,"30,90,180,360,f",,9.5,,10,,,10.5,,,,11.5,,,,,,9.5,Nivel I<sup>2</sup>,https://supertasas.com/img/logo-CcSt.svg
+Crediclub S.A. de C.V.,Super Tasas (con pago de intereses mensual),https://supertasas.com,1,5000000,360,,,,,,,,,,,11,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Cuenta Básica: Depósitos de Hasta $25,000 MXN al mes (3,000 UDIS) y</p>
+<p>Retiros de Hasta $12,500 MXN al día (1,500 UDIS) o $50,000 MXN al mes (6,000 UDIS)</p>",https://supertasas.com/img/logo-CcSt.svg
+"Financiera Broxel, S.A. de C.V.",Bóveda Virtual,https://broxel.com,1,999999999,f,,,,,,,,,,,,,,,,,10,"<p>Nivel I<sup>2</sup></p>
+<p>Rendimientos diarios con depósitos mensuales</p>
+<p>Comisión de $250.00 por aclaraciones improcedentes</p>
+<p>Comisión de $6.90 + IVA por transferencia SPEI</p>
+<p>Cobro por inactividad de la cuenta (4 meses) $86.21 + IVA</p>",https://transformacion.azurewebsites.net/wp-content/uploads/2024/06/logoBXr.png.webp
+"Financiera Broxel, S.A. de C.V.",Inversión 360,https://broxel.com,10000,13000000,360,,,,,,,,,,,11.23,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Rendimientos diarios con depósitos mensuales</p>
+<p>Comisión de $250.00 por aclaraciones improcedentes.</p>",https://transformacion.azurewebsites.net/wp-content/uploads/2024/06/logoBXr.png.webp
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,5000,20000,"30,60,90,120,150,180,210,240,270,360",,6.25,6.25,6.25,6.55,6.55,6.55,6.55,6.55,6.55,6.55,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,20001,50000,"30,60,90,120,150,180,210,240,270,360",,6.4,6.4,6.4,6.75,6.75,6.75,6.75,6.75,6.75,6.75,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,50001,100000,"30,60,90,120,150,180,210,240,270,360",,6.55,6.55,6.55,6.95,6.95,6.95,6.95,6.95,6.95,6.95,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,100001,50000,"30,60,90,120,150,180,210,240,270,360",,6.7,6.7,6.7,7.15,7.15,7.15,7.15,7.15,7.15,7.15,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,500001,750000,"30,60,90,120,150,180,210,240,270,360",,6.85,6.85,6.85,7.35,7.35,7.35,7.35,7.35,7.35,7.35,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,750001,1000000,"30,60,90,120,150,180,210,240,270,360",,7,7,7,7.55,7.55,7.55,7.55,7.55,7.55,7.55,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,1000001,2000000,"30,60,90,120,150,180,210,240,270,360",,7.15,7.15,7.15,7.75,7.75,7.75,7.75,7.75,7.75,7.75,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,2000001,3000000,"30,60,90,120,150,180,210,240,270,360",,7.3,7.3,7.3,7.95,7.95,7.95,7.95,7.95,7.95,7.95,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,3000001,4000000,"30,60,90,120,150,180,210,240,270,360",,7.45,7.45,7.45,8.15,8.15,8.15,8.15,8.15,8.15,8.15,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,4000001,5000000,"30,60,90,120,150,180,210,240,270,360",,7.6,7.6,7.6,8.35,8.35,8.35,8.35,8.35,8.35,8.35,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,5000001,6000000,"30,60,90,120,150,180,210,240,270,360",,7.75,7.75,7.75,8.55,8.55,8.55,8.55,8.55,8.55,8.55,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,6000001,7000000,"30,60,90,120,150,180,210,240,270,360",,7.9,7.9,7.9,8.75,8.75,8.75,8.75,8.75,8.75,8.75,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,7000001,8000000,"30,60,90,120,150,180,210,240,270,360",,8.05,8.05,8.05,8.95,8.95,8.95,8.95,8.95,8.95,8.95,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,8000001,9000000,"30,60,90,120,150,180,210,240,270,360",,8.2,8.2,8.2,9.15,9.15,9.15,9.15,9.15,9.15,9.15,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,9000001,10000000,"30,60,90,120,150,180,210,240,270,360",,8.35,8.35,8.35,9.35,9.35,9.35,9.35,9.35,9.35,9.35,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Deposito a Plazo fijo,https://www.finsocial.mx,10000001,999999999,"30,60,90,120,150,180,210,240,270,360",,8.5,8.5,8.5,9.55,9.55,9.55,9.55,9.55,9.55,9.55,,,,,,,Nivel I<sup>2</sup>,https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Depósito a la vista (tasa máxima a partir de 6 meses),https://www.finsocial.mx,1,500000,f,,,,,,,,,,,,,,,,,7,"<p>Nivel I<sup>2</sup></p>
+<p>Comisión por transferencia SPEI: $5.50</p>
+<p>Tasa aplicable sólo si se realizan retiros hasta el día 181.</p>
+<p>La tasa puede disminuir si se hacen retiros antes de este período.</p>
+<p>Consulta la página web de esta SOFIPO para mayor información</p>",https://www.finsocial.mx/images/finsocial.png
+Financiera del Sector Social S.A. de C.V,Depósito a la vista (tasa máxima a partir de 6 meses),https://www.finsocial.mx,500001,999999999,f,,,,,,,,,,,,,,,,,7.25,"<p>Nivel I<sup>2</sup></p>
+<p>Comisión por transferencia SPEI: $5.50</p>
+<p>Tasa aplicable sólo si se realizan retiros hasta el día 181.</p>
+<p>La tasa puede disminuir si se hacen retiros antes de este período.</p>
+<p>Consulta la página web de esta SOFIPO para mayor información</p>",https://www.finsocial.mx/images/finsocial.png
+Financiera Más S.A. De C.V,Gana Más Financiera,https://www.financieramas.com,1000,999999999,"30,60,90,180,270,360",,6,6.5,7,,,9,,,10.5,12.7,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://www.financieramas.com/Imgs/Assets/Logo2x.png
+Financiera Más S.A. De C.V,Más Empresarial Financiera,https://www.financieramas.com,1000,999999999,f,,,,,,,,,,,,,,,,,5,"<p>Nivel I<sup>2</sup></p>
+<p>Cobro por no mantener saldo mínimo mensual: $100</p>",https://www.financieramas.com/Imgs/Assets/Logo2x.png
+Financiera Más S.A. De C.V,Más Junior,https://www.financieramas.com,50,999999999,f,,,,,,,,,,,,,,,,,5,"<p>Nivel I<sup>2</sup></p>
+<p>Cobro por no mantener saldo mínimo mensual: $50</p>",https://www.financieramas.com/Imgs/Assets/Logo2x.png
+Financiera Más S.A. De C.V,Amigos,https://www.financieramas.com,300,999999999,f,,,,,,,,,,,,,,,,,5,"<p>Nivel I<sup>2</sup></p>
+<p>Cobro por no mantener saldo mínimo mensual: $250</p>",https://www.financieramas.com/Imgs/Assets/Logo2x.png
+"Financiera Sustentable de México, S.A. de C.V.",FINSUS,https://finsus.mx,100,999999999,"7,30,90,180,360,720,1080,1440,1800,f",9.31,9.55,,10.2,,,10.43,,,,12.09,,11.09,10.25,9.25,8.75,10.09,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>
+<p>A la vista con apartado FINSUS+</p>",https://finsus.mx/wp-content/uploads/2023/09/Logo-Finsus_800x.png
+Financiera Tamazula S.A. de C.V.,FITA Servicios Financieros,https://fitaserviciosfinancieros.com.mx/,1000,50000,"30,60,90,180,360",,4.7,4.9,5,,,5.1,,,,5.6,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://fitaserviciosfinancieros.com.mx/index.php?r=img/render/1571/3200/1375/banner.jpg
+Financiera Tamazula S.A. de C.V.,FITA Servicios Financieros,https://fitaserviciosfinancieros.com.mx/,50001,100000,"30,60,90,180,360",,5.1,5.3,5.4,,,5.5,,,,6,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://fitaserviciosfinancieros.com.mx/index.php?r=img/render/1571/3200/1375/banner.jpg
+Financiera Tamazula S.A. de C.V.,FITA Servicios Financieros,https://fitaserviciosfinancieros.com.mx/,100001,250000,"30,60,90,180,360",,5.5,5.7,5.8,,,5.9,,,,6.4,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://fitaserviciosfinancieros.com.mx/index.php?r=img/render/1571/3200/1375/banner.jpg
+Financiera Tamazula S.A. de C.V.,FITA Servicios Financieros,https://fitaserviciosfinancieros.com.mx/,250001,500000,"30,60,90,180,360",,5.9,6.1,6.2,,,6.3,,,,6.8,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://fitaserviciosfinancieros.com.mx/index.php?r=img/render/1571/3200/1375/banner.jpg
+Financiera Tamazula S.A. de C.V.,FITA Servicios Financieros,https://fitaserviciosfinancieros.com.mx/,500001,1000000,"30,60,90,180,360",,6.3,6.8,6.9,,,7.2,,,,7.1,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://fitaserviciosfinancieros.com.mx/index.php?r=img/render/1571/3200/1375/banner.jpg
+Financiera Tamazula S.A. de C.V.,FITA Servicios Financieros,https://fitaserviciosfinancieros.com.mx/,1000001,3000000,"30,60,90,180,360",,6.7,7.2,7.3,,,9.05,,,,8.5,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://fitaserviciosfinancieros.com.mx/index.php?r=img/render/1571/3200/1375/banner.jpg
+Financiera Tamazula S.A. de C.V.,FITA Servicios Financieros,https://fitaserviciosfinancieros.com.mx/,3000001,999999999,"30,60,90,180,360",,7.09999999999999,7.5,7.7,,,9.25,,,,8.9,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://fitaserviciosfinancieros.com.mx/index.php?r=img/render/1571/3200/1375/banner.jpg
+Financiera Tamazula S.A. de C.V.,FITA Servicios Financieros (A la vista),https://fitaserviciosfinancieros.com.mx/,200,999999999,f,,,,,,,,,,,,,,,,,1,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://fitaserviciosfinancieros.com.mx/index.php?r=img/render/1571/3200/1375/banner.jpg
+"Fondea Technologies, S.A. de C.V.",Fondeadora,https://empresarial.fondeadora.com,50,999999999,f,,,,,,,,,,,,,,,,,4.5,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>
+<p>Costo de membresía: $69/mes</p>
+<p>Personas Físicas con Actividad Empresarial, RIF o RSC</p>",https://cdn.prod.website-files.com/646e5d99239a2ea11eea1ed7/663a793ea147789d4c0fa279_logo-fondeadora.svg
+"Impulso Para El Desarrollo De México, S.A. De C.V.",Impulso México,https://www.impulsomexico.net/,1,999999999,"90,120,36",,,,5,5,,,,,,5,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>","https://static.wixstatic.com/media/70f040_2535293508d44d9e9f2e0ed68e50b11f~mv2.png/v1/fill/w_556,h_188,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/impulso_new-Photoroom.png"
+JP Sofiexpress S.A DE C.V.,Plazo Express,https://sofiexpress.com.mx,1000,50000,"30,60,90,120,180,360",,4.8,5,5.2,5.8,,5.8,,,,5.8,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://sofiexpress.com.mx/home/wp-content/uploads/2015/11/sxps-rtna3.png
+JP Sofiexpress S.A DE C.V.,Plazo Express,https://sofiexpress.com.mx,50001,100000,"30,60,90,120,180,360",,4.9,5.1,5.5,5.9,,5.9,,,,5.9,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://sofiexpress.com.mx/home/wp-content/uploads/2015/11/sxps-rtna3.png
+JP Sofiexpress S.A DE C.V.,Plazo Express,https://sofiexpress.com.mx,100001,250000,"30,60,90,120,180,360",,5,5.2,5.6,6.1,,6.1,,,,6.1,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://sofiexpress.com.mx/home/wp-content/uploads/2015/11/sxps-rtna3.png
+JP Sofiexpress S.A DE C.V.,Plazo Express,https://sofiexpress.com.mx,250001,500000,"30,60,90,120,180,360",,5.1,5.3,5.7,6.2,,6.2,,,,6.2,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://sofiexpress.com.mx/home/wp-content/uploads/2015/11/sxps-rtna3.png
+JP Sofiexpress S.A DE C.V.,Plazo Express,https://sofiexpress.com.mx,500001,750000,"30,60,90,120,180,360",,5.2,5.4,6.1,6.3,,6.3,,,,6.3,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://sofiexpress.com.mx/home/wp-content/uploads/2015/11/sxps-rtna3.png
+JP Sofiexpress S.A DE C.V.,Plazo Express,https://sofiexpress.com.mx,750001,1000000,"30,60,90,120,180,360",,5.9,6.1,6.3,6.9,,6.9,,,,6.9,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://sofiexpress.com.mx/home/wp-content/uploads/2015/11/sxps-rtna3.png
+JP Sofiexpress S.A DE C.V.,Plazo Express,https://sofiexpress.com.mx,1000001,999999999,"30,60,90,120,180,360",,6,6.7,7.3,7.5,,7.5,,,,7.5,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Sin cobro de comisiones</p>",https://sofiexpress.com.mx/home/wp-content/uploads/2015/11/sxps-rtna3.png
+"Ku-bo financiero, S.A. de C.V.",Kubo Plazo fijo,https://www.kubofinanciero.com,50,3000000,"90,120,360,540",,,,8.3,8.5,,,,,,9.5,10.5,,,,,,"<p>Nivel I<sup>2</sup></p> <p>
+<p>Comisión por transferencia SPEI: $4.31 + IVA</p>
+<p>Cobro por aclaración improcedente: $200</p>",https://www.kubofinanciero.com/assets/icons/brand/logo-kubo.jpg
+"Ku-bo financiero, S.A. de C.V.",Kubo Plazo fijo,https://www.kubofinanciero.com,3000001,999999999,"90,120,360,540",,,,9.3,9.3,,,,,,10.5,11.5,,,,,,"<p>Nivel I<sup>2</sup></p> <p>
+<p>Comisión por transferencia SPEI: $4.31 + IVA</p>
+<p>Cobro por aclaración improcedente: $200</p>",https://www.kubofinanciero.com/assets/icons/brand/logo-kubo.jpg
+Multiplica México S.A. de C.V.,Aprende Multiplicando (menores de 18 años),https://www.multiplicamexico.com,500,999999999,360,,,,,,,,,,,10,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>
+<p>Dirigido a menores de 18 años</p>",http://www.multiplicamexico.com/wp-content/uploads/logotipo.jpg
+Multiplica México S.A. de C.V.,Multiplica Invirtiendo M,https://www.multiplicamexico.com,500,999999999,"7,30,60,90,120,180,360",2.1,4,5.5,6.5,7,,8,,,,9,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",http://www.multiplicamexico.com/wp-content/uploads/logotipo.jpg
+Multiplica México S.A. de C.V.,Multiplica Invirtiendo V,https://www.multiplicamexico.com,500,999999999,f,,,,,,,,,,,,,,,,,9,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",http://www.multiplicamexico.com/wp-content/uploads/logotipo.jpg
+Multiplica México S.A. de C.V.,Fondo de Ahorro,https://www.multiplicamexico.com,500,999999999,360,,,,,,,,,,,8,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",http://www.multiplicamexico.com/wp-content/uploads/logotipo.jpg
+Nu México Financiera S.A. de C.V.,Cajitas Nu,https://nu.com.mx,1,999999999,f,,,,,,,,,,,,,,,,,12,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",https://nu.com.mx/images/seo/nu-icon.png?v=2
+Nu México Financiera S.A. de C.V.,Ahorro Congelado,https://nu.com.mx,50,999999999,"7,30,90,180",12.3,12.62,,14,,,11.76,,,,,,,,,,12,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",https://nu.com.mx/images/seo/nu-icon.png?v=2
+"Opciones Empresariales del Noreste, S.A. de C.V.",Rendimientos al vencimiento del plazo pactado,https://www.aspintegraopciones.com/,500,999999999,"90,120,150,180,210,240,270,360,540,720",,,,10.5,10.5,10.5,12,12,12,12,13.5,14,14.5,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Comisión por a patir de la 3ra consulta de saldo al mes: $4.31</p>
+<p>Comisión por retiro via SPEI: $80.00</p>",https://www.aspintegra.com.mx/public/img/LOGO_ASP_02@4x.png
+"Opciones Empresariales del Noreste, S.A. de C.V.",Rendimientos al cierre de cada mes,https://www.aspintegraopciones.com/,10000,999999999,"90,120,150,180,210,240,270,360,540,720",,,,10.5,10.5,10.5,12,12,12,12,13.5,14,14.5,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>Comisión por a patir de la 3ra consulta de saldo al mes: $4.31</p>
+<p>Comisión por retiro via SPEI: $80.00</p>",https://www.aspintegra.com.mx/public/img/LOGO_ASP_02@4x.png
+"Opciones Empresariales del Noreste, S.A. de C.V.",Rendimientos por adelantado (A la vista con tasa variable),https://www.aspintegraopciones.com/,500000,999999999,f,,,,,,,,,,,,,,,,,11,"<p>Nivel I<sup>2</sup></p>
+<p>La tasa de interés mostrada es para una duración de 360 días.</p>
+<p>La tasa disminuye si la duración de la inversión es menor, o se incrementa si es mayor</p>
+<p>Comisión por a patir de la 3ra consulta de saldo al mes: $4.31</p>
+<p>Comisión por retiro via SPEI: $80.00</p>",https://www.aspintegra.com.mx/public/img/LOGO_ASP_02@4x.png
+Operaciones De Tu Lado S.A. De C.V.,Inversión Total,https://www.avantthya.com.mx/,1000,999999999,"30,60,90,120,180,360",,8.25,8.75,9.25,9.25,,10,,,,11.25,,,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",https://resoures-educem.s3.us-west-2.amazonaws.com/Logos/Avantthya/img/avantthya_blanco.png
+Paso Seguro Creando Futuro S.A. De C.V.,Creahorro,https://www.pasoseguro.com.mx/,100,999999999,f,,,,,,,,,,,,,,,,,6.5,"<p>Nivel I<sup>2</sup></p>
+<p>Comisión por transferencia SPEI: $8.50 + IVA</p>",https://www.pasoseguro.com.mx/resources/img/logo.png
+Paso Seguro Creando Futuro S.A. De C.V.,Creahorro Junior,https://www.pasoseguro.com.mx/,50,999999999,f,,,,,,,,,,,,,,,,,6.5,"<p>Nivel I<sup>2</sup></p>
+<p>Comisión por transferencia SPEI: $8.50 + IVA</p>",https://www.pasoseguro.com.mx/resources/img/logo.png
+Paso Seguro Creando Futuro S.A. De C.V.,Inverfuturo,https://www.pasoseguro.com.mx/,2000,149000,"60,90,180,360",,,9,10,,,11.5,,,,13,,,,,,6.5,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",https://www.pasoseguro.com.mx/resources/img/logo.png
+Paso Seguro Creando Futuro S.A. De C.V.,Inverfuturo Plus,https://www.pasoseguro.com.mx/,2000,149000,"30,60,90,180,360",,8,9,10,,,11.5,,,,13,,,,,,6.5,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",https://www.pasoseguro.com.mx/resources/img/logo.png
+Paso Seguro Creando Futuro S.A. De C.V.,Inverfuturo,https://www.pasoseguro.com.mx/,150000,999999999,360,,,,,,,,,,,13.5,,,,,,6.5,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",https://www.pasoseguro.com.mx/resources/img/logo.png
+Paso Seguro Creando Futuro S.A. De C.V.,Inverfuturo Plus,https://www.pasoseguro.com.mx/,150000,999999999,360,,,,,,,,,,,13.5,,,,,,6.5,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",https://www.pasoseguro.com.mx/resources/img/logo.png
+Paso Seguro Creando Futuro S.A. De C.V.,Meta Segura,https://www.pasoseguro.com.mx/,900,100000,"30,60,90,120,150,180,210,240,270,360,540,720",,7,7,9.5,9.5,9.5,9.5,10.5,10.5,10.5,10.5,10.5,10.5,,,,6.5,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",https://www.pasoseguro.com.mx/resources/img/logo.png
+Paso Seguro Creando Futuro S.A. De C.V.,Mi ahorro,https://www.pasoseguro.com.mx/,900,100000,"30,60,90,120,150,180,210,240,270,360,540,720",,7,7,9.5,9.5,9.5,9.5,10.5,10.5,10.5,10.5,10.5,10.5,,,,6.5,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",https://www.pasoseguro.com.mx/resources/img/logo.png
+"Préstamo Empresarial Oportuno, S.A. de C.V.",Inver + / Inver Jr,https://premo.mx/,100,200000000,"7,30,90,120,360,720",5.22,10.44,,10.19,10.1,,,,,,10.39,,10.39,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",https://premo.mx/wp-content/uploads/2023/11/ElJcobB9Rr3fqh69d7G3-1.svg
+"Préstamo Empresarial Oportuno, S.A. de C.V.",Cuenta A la vista y A la vista Jr,https://premo.mx/,100,200000000,f,,,,,,,,,,,,,,,,,5,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",https://premo.mx/wp-content/uploads/2023/11/ElJcobB9Rr3fqh69d7G3-1.svg
+"Stori México, S.A. De C.V.",Stori Cuenta+ (a la vista) y Stori Inversión + (plazo fijo),https://www.storicard.com,20,999999999,"30,90,180,360,f",,10.48,,12.41,,,10.71,,,,10,,,,,,9.53,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>
+<p>Cuentas con distintos niveles</p>
+<p>Consultar la página de la SOFIPO para ver diferencias</p>",https://www.storicard.com/_next/static/media/stori_s_color.90dc745f.svg
+"Klar Technologies, S.A. de C.V.",Klar,https://www.klar.mx,100,999999999,"7,30,90,180,360,f",10.25,10.5,,10.75,,,12.5,,,,11,,,,,,10,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>
+<p>Posibilidad de abrir una cuenta Fondo de Rendimientos con tasa de 12.5%</p>",https://cdn.prod.website-files.com/62f28d86df04385706ee23d7/65a5506e0d4fab3787891351_Klar-black.svg
+"Klar Technologies, S.A. de C.V.",Klar Plus / Platino,https://www.klar.mx,100,999999999,"7,30,90,180,360,f",11.25,11.5,,11.75,,,13.5,,,,12,,,,,,11,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>
+<p>Posibilidad de abrir una cuenta Fondo de Rendimientos con tasa de 13.5%</p>",https://cdn.prod.website-files.com/62f28d86df04385706ee23d7/65a5506e0d4fab3787891351_Klar-black.svg
+"Sociedad De Alternativas Económicas Sae, S.A. De C.V.",Leva Invierte,https://levainvierte.com,20000,99999,"90,120,360,540,720",,,,10.75,11.5,,,,,,12.5,13,13.25,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",https://sitelevainvier.wpenginepowered.com/wp-content/uploads/2024/08/leva_invierte-2.png
+"Sociedad De Alternativas Económicas Sae, S.A. De C.V.",Leva Invierte +,https://levainvierte.com,100000,999999999,"90,120,360,540,720",,,,11.25,12,,,,,,13.75,14.25,14.75,,,,,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>",https://sitelevainvier.wpenginepowered.com/wp-content/uploads/2024/08/leva_invierte-2.png
+"Unete Financiera de Allende, SA de CV",Inversión ,https://www.unetefinanciera.com.mx/ahorro-e-inversi%C3%B3nx,1000,1000000,"7,30,90,f",6,6,,9,,,,,,,,,,,,,3,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>","https://static.wixstatic.com/media/20bd33_ff0a92ce9b8347cfbf8008b191ed13e9~mv2.png/v1/fill/w_446,h_164,al_c,lg_1,q_85,enc_avif,quality_auto/unete-logo-h.png"
+"Unete Financiera de Allende, SA de CV",Inversión ,https://www.unetefinanciera.com.mx/ahorro-e-inversi%C3%B3nx,1000001,999999999,"7,30,90,f",7,7.5,,9,,,,,,,,,,,,,4,"<p>Nivel I<sup>2</sup></p>
+<p>No refiere cobro de comisiones en pagina web</p>
+<p>Otras opciones de inversión no tradicionales disponibles en página web</p>","https://static.wixstatic.com/media/20bd33_ff0a92ce9b8347cfbf8008b191ed13e9~mv2.png/v1/fill/w_446,h_164,al_c,lg_1,q_85,enc_avif,quality_auto/unete-logo-h.png"
